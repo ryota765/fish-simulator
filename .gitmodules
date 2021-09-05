@@ -1,0 +1,3 @@
+[submodule "a-life"]
+	path = a-life
+	url = https://github.com/alifelab/alife_book_src.git
