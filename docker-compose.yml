@@ -1,0 +1,12 @@
+version: "3"
+services:
+  a-life:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    stdin_open: true
+    ports:
+      - "6080:6080"
+    volumes:
+      - ./a-life:/usr/a-life
